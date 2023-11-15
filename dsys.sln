@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "socket", "socket", "{920043A1-1F63-414F-B640-3DECD3BECA27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tcp", "tcp", "{6EB04C89-C690-4805-B006-9C641CB95582}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cs", "cs", "{7D3CD9E7-099D-4D46-A2B6-0BCCD668B4C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "client", "socket\tcp\cs\client\client.csproj", "{66F55A5A-4A59-4A0C-9A5D-759F37C0C61C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "server", "socket\tcp\cs\server\server.csproj", "{43C5DDDB-90A2-4D1E-BB41-3337B22C2CB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "udp", "udp", "{D315FFED-95E2-4531-B186-6A7DCEA2A4CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cs", "cs", "{FFB05499-8D83-4DF1-877C-5C92710AFF0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "client", "socket\udp\cs\client\client.csproj", "{64624544-2A16-46B6-AADE-211C41017EAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "server", "socket\udp\cs\server\server.csproj", "{69D5D244-2604-4BA8-8A10-5E746C43E2D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66F55A5A-4A59-4A0C-9A5D-759F37C0C61C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F55A5A-4A59-4A0C-9A5D-759F37C0C61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F55A5A-4A59-4A0C-9A5D-759F37C0C61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F55A5A-4A59-4A0C-9A5D-759F37C0C61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C5DDDB-90A2-4D1E-BB41-3337B22C2CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C5DDDB-90A2-4D1E-BB41-3337B22C2CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C5DDDB-90A2-4D1E-BB41-3337B22C2CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C5DDDB-90A2-4D1E-BB41-3337B22C2CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64624544-2A16-46B6-AADE-211C41017EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64624544-2A16-46B6-AADE-211C41017EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64624544-2A16-46B6-AADE-211C41017EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64624544-2A16-46B6-AADE-211C41017EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D5D244-2604-4BA8-8A10-5E746C43E2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D5D244-2604-4BA8-8A10-5E746C43E2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D5D244-2604-4BA8-8A10-5E746C43E2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D5D244-2604-4BA8-8A10-5E746C43E2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EB04C89-C690-4805-B006-9C641CB95582} = {920043A1-1F63-414F-B640-3DECD3BECA27}
+		{7D3CD9E7-099D-4D46-A2B6-0BCCD668B4C5} = {6EB04C89-C690-4805-B006-9C641CB95582}
+		{66F55A5A-4A59-4A0C-9A5D-759F37C0C61C} = {7D3CD9E7-099D-4D46-A2B6-0BCCD668B4C5}
+		{43C5DDDB-90A2-4D1E-BB41-3337B22C2CB7} = {7D3CD9E7-099D-4D46-A2B6-0BCCD668B4C5}
+		{D315FFED-95E2-4531-B186-6A7DCEA2A4CD} = {920043A1-1F63-414F-B640-3DECD3BECA27}
+		{FFB05499-8D83-4DF1-877C-5C92710AFF0A} = {D315FFED-95E2-4531-B186-6A7DCEA2A4CD}
+		{64624544-2A16-46B6-AADE-211C41017EAE} = {FFB05499-8D83-4DF1-877C-5C92710AFF0A}
+		{69D5D244-2604-4BA8-8A10-5E746C43E2D5} = {FFB05499-8D83-4DF1-877C-5C92710AFF0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A496133A-6417-41D1-9981-C640D940F721}
+	EndGlobalSection
+EndGlobal
