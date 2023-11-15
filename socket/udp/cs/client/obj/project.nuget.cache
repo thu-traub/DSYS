@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fevvBk1BObwGCLQBfARRzuQD+2103ccWFf/W+N7VaxRYG6SBHozBW3BfGp8qcnweXQOrJQ3MSk59WZDYz9Km6g==",
+  "success": true,
+  "projectFilePath": "C:\\temp\\dsys\\socket\\udp\\cs\\client\\client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\traub\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\traub\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\traub\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\traub\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.23\\microsoft.netcore.app.host.win-x64.6.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
